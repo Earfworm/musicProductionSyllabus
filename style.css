@@ -10,12 +10,22 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b7a67a;
-  /* background: url(https://cdn.vectorstock.com/i/1000x1000/03/67/music-notes-background-vector-21450367.webp),
-    linear-gradient(to right, #6db3f2, #8f989f); */
 
+  overflow: hidden;
   color: #963d3d;
   height: 14%;
+  position: relative;
+  background: rgba(183, 166, 122);
+}
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn.vectorstock.com/i/1000x1000/03/67/music-notes-background-vector-21450367.webp);
+  background-size: cover;
+  opacity: 0.2;
 }
 
 h1 {
