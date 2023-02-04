@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  color: #f5e8ea;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7a67a;
+  /* background: url(https://cdn.vectorstock.com/i/1000x1000/03/67/music-notes-background-vector-21450367.webp),
+    linear-gradient(to right, #6db3f2, #8f989f); */
+
+  color: #963d3d;
+  height: 14%;
+}
+
+h1 {
+  font-size: 20px;
+  text-shadow: 1px 1px #f5e8ea;
+  margin-bottom: 10px;
+  position: relative;
+  right: 30%;
+}
+.header-h3 {
+  display: flex;
+  margin: 10px;
+  font-size: 20px;
+  color: #f5e8ea;
+  text-shadow: 1px 1px #669bc5;
+  position: relative;
+  right: 6%;
+}
+
+main {
+  height: 86%;
+  background-color: #963d3d;
+  background-image: url(https://i.redd.it/8l1p9dehpiy81.png);
+  background-position: 50% 30%;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-1 {
+  position: relative;
+  right: 10%;
+  top: 7%;
+}
+
+.part-1 {
+}
+.part-2 {
+  position: relative;
+  left: 10%;
+}
+
+.section-2 {
+  position: relative;
+  right: 6%;
+  top: 10%;
+}
+
+.part-3 {
+  position: relative;
+}
+.part-4 {
+  position: relative;
+  left: 10%;
+}
+
+.section-3 {
+  position: relative;
+  top: 10%;
+}
+
+.part-5 {
+}
+ul {
+}
+li {
+  list-style: none;
+}
